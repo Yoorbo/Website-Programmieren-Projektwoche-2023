@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+:root {
+    font-size: 2vw;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.pfp {
+    background: url("images/LordVonBerton.png") center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
