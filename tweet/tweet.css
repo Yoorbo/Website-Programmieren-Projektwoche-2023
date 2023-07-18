@@ -15,10 +15,18 @@ body {
 .profile {
     display: flex;
     align-items: center;
+
+    margin-bottom: 1rem;
 }
 
-.handle {
+.handle, .details {
     opacity: 0.6;
+}
+
+.details {
+    padding: 0.6rem 0;
+    border-bottom: 0.1rem solid;
+    font-size: 0.8rem;
 }
 
 .displayname {
@@ -31,4 +39,20 @@ body {
     border-radius: 50%;
     width: 2.5rem;
     height: 2.5rem;
+    margin-right: 0.5rem;
+}
+
+.tweet-wrapper {
+    padding: 1rem;
+}
+
+.content > a {
+    color: deepskyblue;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.content > a:hover {
+    transform: scale(1.05);
+    display: inline-block;
 }
