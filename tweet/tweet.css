@@ -3,6 +3,13 @@
 :root {
     font-size: 2vw;
     font-family: 'Oxygen', sans-serif;
+    --bg: #18202A;
+    --txt: #fff;
+}
+
+body {
+    background: var(--bg);
+    color: var(--txt);
 }
 
 .profile {
@@ -10,10 +17,18 @@
     align-items: center;
 }
 
+.handle {
+    opacity: 0.6;
+}
+
+.displayname {
+    font-weight: 600;
+}
+
 .pfp {
     background: url("images/LordVonBerton.png") center;
     background-size: cover;
     border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+    width: 2.5rem;
+    height: 2.5rem;
 }
