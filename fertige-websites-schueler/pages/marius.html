@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Käthe Kollwitz Gymnasium Neustadt an der Weinstraße</title>
+    <link rel="stylesheet" href="/css/programmierprojekt/marius.css">
+    <style>
+        .image-container {
+            filter: brightness(100%);
+        }
+
+        .image-container:hover {
+            filter: brightness(102%);
+        }
+    </style>
+</head>
+<body>
+
+
+<header>
+    <h1 class="head">Käthe Kollwitz Gymnasium Neustadt an der Weinstraße‎ </h1>
+</header>
+
+<main>
+    <section id="school-info">
+        <h2>Über unsere Schule</h2>
+        <div class="Schrift">
+            <p>
+                <big> Das Käthe Kollwitz Gymnasium in Neustadt an der Weinstraße ist eine angesehene Schule mit einer
+                    reichen Geschichte. Es bietet eine erstklassige Bildung, engagierte Lehrer und eine Vielzahl von
+                    außerschulischen Aktivitäten zur persönlichen Entwicklung der Schüler. Die Schule fördert ein
+                    harmonisches Miteinander und ein angenehmes Lernumfeld für ihre Schüler. </big>
+            </p>
+            <p>
+            </p>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Bildergalerie</h2>
+        <div class="image-container">
+
+
+            <figure>
+                <img src="/images/programmierprojekt/kkg1.jpg" alt="Schule" height="200px" width="300px">
+                <figcaption>Das Käthe</figcaption>
+            </figure>
+            <figure>
+                <img src="/images/programmierprojekt/kkg2.webp" alt="Schulleiter" height="200px" width="275px">
+                <figcaption>Herr Vogt, Schulleiter</figcaption>
+            </figure>
+            <figure>
+                <img src="/images/programmierprojekt/logokkg.png" alt="Logo" height="200px" width="200px">
+                <figcaption>Das Logo des Käthes</figcaption>
+            </figure>
+            <figure>
+                <img src="/images/programmierprojekt/altbau.webp" alt="Altbau" height="200px" width="300px">
+                <figcaption>Der Altbau vom Käthe</figcaption>
+            </figure>
+
+            <button onclick="openGoogleMaps()"> Adresse auf Maps</button>
+
+            <script>
+                function openGoogleMaps() {
+                    window.open("https://www.google.com/maps/place/K%C3%A4the-Kollwitz-Gymnasium/@49.3559467,8.136848,15z/data=!4m2!3m1!1s0x0:0x76f926fe034e2da5?sa=X&ved=2ahUKEwjG-rPItJqAAxUqzgIHHQ60ASIQ_BJ6BAg4EAA&ved=2ahUKEwjG-rPItJqAAxUqzgIHHQ60ASIQ_BJ6BAhEEAg");
+                }
+            </script>
+
+        </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Marius | Projektwoche 2023</p>
+</footer>
+</body>
+</html>

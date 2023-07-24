@@ -1,0 +1,2 @@
+# Media
+All media contained within this repository were provided to me by students of my course. They explicitly told me the media used wouldn't be copyrighted. If this isn't the case and you should recognise copyrighted material, please contact me and I will remove it immediately. Further, I have no affiliations with any media or code provided in this folder, it is simply an archive for the work and learning progress of my students that they achieved within 3 days of learning HTML & CSS. 

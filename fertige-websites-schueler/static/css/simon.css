@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+  font-size: 2vw;
+  font-family: 'Open Sans', sans-serif;
+  --bg: #18202A;
+  --txt: #fff;
+}
+
+body{
+  background: var(--bg);
+  color: var(--txt);
+}
+
+.handle{
+  opacity: 0.6;
+}
+
+.details{
+  opacity: 0.6;
+}
+
+.displayname{
+  font-weight: 600;
+}
+
+.pfp{
+  background: url("/images/programmierprojekt/grinch.webp");
+  background-size: cover;
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.tweet-wrapper{
+  padding: 1rem
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 1rem;
+}
+
+.content > a{
+  color: orange;
+  text-decoration: none;
+  transition:0.3s ease-in-out;
+}
+
+.content > a:hover{
+  transform: scale(1.05);
+  display: inline-block;
+}
+
+.details{
+  padding: 1rem 0;
+  font-size: 0.6rem;
+}
+
+.total-interactions{
+  border-top: 0.05rem solid;
+}
+
+.user-interactions{
+  border-top: 0.05rem solid;
+}
+
+.user-interactions > a{
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.user-interactions > a:hover{
+  transform: scale(1.05);
+  display:inline-block;
+}
+
+.commentsgen{
+  padding: 1rem 0;
+  border-top: 0.05rem solid;
+
+}
+
+.Name1comments{
+  font-size: 0.6rem;
+}
+
+.comment1{
+  padding: 1rem 0;
+}
+
+.Name2comments{
+  border-top: 0.05rem solid;
+  font-size: 0.6rem;
+}
+
+.comment2{
+  padding: 1rem 0;
+}
+
+.comment2 > a{
+  color: orange;
+}
+
+.Name3comments{
+  border-top: 0.05rem solid;
+  font-size: 0.6rem;
+}
+
+.comment3{
+  padding: 1rem 0;
+}
+
+.comment3 > a{
+  color: orange;
+}
+
+.Name4comments{
+  font-size: 0.6rem;
+  border-top: 0.05rem solid;
+}
+
+.comment4{
+  padding: 1rem 0;
+}
+
+.addcomment{
+  padding: 4rem 0;
+  border-top: 0.05rem solid;
+}
+
+.addcomment > a{
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.addcomment > a:hover{
+  transform: scale(1.05);
+  display:inline-block;
+}
+
+.empty{
+  border-top: 0.05rem solid;
+}

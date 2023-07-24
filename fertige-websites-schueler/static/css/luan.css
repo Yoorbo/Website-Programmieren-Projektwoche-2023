@@ -1,0 +1,22 @@
+:root {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 3rem;
+    text-decoration: underline;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.deneux {
+  text-align: center;
+}

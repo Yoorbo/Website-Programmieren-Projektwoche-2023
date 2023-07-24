@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
+
+
+:root {
+    font-size: 2vw;
+    font-family: 'Lumanosimo', cursive;
+    margin-bottom: 8.5rem;
+}
+
+
+.fromage {
+    font-size: 3vw;
+}
+
+.profile-picture {
+    background: url("/images/programmierprojekt/news_1444211817_hb_aktionslogo.webp") center;
+    border-radius: 50%;
+    width: 8.5rem;
+    height: 8.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.handle, details {
+    margin-bottom: 1.5rem;
+    font-size: 2vw;
+}
+
+.Transfers {
+    margin-bottom: 1rem;
+}
+
+.Neuzugänge {
+    margin-bottom: 1.5rem;
+}
+
+.Aufstellung {
+    margin-bottom: 1rem;
+}
+
+.Waufstellung {
+    margin-bottom: 1.5rem;
+}
+
+.Spielplan {
+    margin-bottom: 1rem;
+}

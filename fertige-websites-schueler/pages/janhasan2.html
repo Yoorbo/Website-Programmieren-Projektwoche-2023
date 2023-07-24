@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/programmierprojekt/janhasan.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daten eingeben</title>
+</head>
+<body>
+<div>
+    <button onclick="popup()" class="Data">Fortnite Account Daten (click)</button>
+</div>
+
+<div class="wrapper">
+    <input type="number" class="VbucksE" value="123456789">
+    <div class="buckie">
+        Vbucks eingeben (Max. 30 Milliarden)
+    </div>
+</div>
+<button type="button" class="generierenknopf">
+    <a href="/websites/janhasan3/">
+        GENERIEREN!
+    </a>
+</button>
+</body>
+<script>
+    alert('Du kriegst gleich viele VBucks')
+    const name = document.querySelector(".name")
+
+    function popup() {
+        let person = prompt("Bitte die Fortnite Email eingeben", "@fortniteskinsarehot.com");
+        let him = prompt("Jetzt dein Passwort für den account :)", "ichhabekeinlebenundspielefortnite123");
+        let text;
+        if (person == null || person == "") {
+            text = "User cancelled.";
+        } else {
+            text = "Hello " + person + "! VBucks werden verschickt!";
+        }
+        open
+    }
+</script>
+</html>

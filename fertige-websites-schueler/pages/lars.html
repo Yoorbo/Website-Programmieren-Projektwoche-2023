@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="de">
+<style>
+    body {
+        background-image: url(
+        "https://s1.qwant.com/thumbr/700x0/8/b/45fc27504f2798ce75b1c49b5a12468d503666f7740e82e303e3fb91b07807/TsogoSunSpielo.jpg?u=http%3A%2F%2Fg3newswire.com%2Fwp-content%2Fuploads%2F2012%2F06%2FTsogoSunSpielo.jpg&q=0&b=1&p=0&a=0"
+        );
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+        background-position: center;
+    }
+</style>
+<title>Spielo Coins</title>
+<head>
+    <style>
+        #coin {
+            display: none; /* Initially hide the coin */
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: gold;
+            border-radius: 50%;
+        }
+    </style>
+    <meta charset="utf-8">
+    <link href="/css/programmierprojekt/lars.css" rel="stylesheet">
+</head>
+
+<body>
+<button onclick="splashCoins()">Press Me</button>
+<div id="coin"></div>
+
+<script>
+    function splashCoins() {
+        var coin = document.getElementById("coin");
+        coin.style.display = "block"; // Display the coin
+
+        // Randomly position the coin
+        var posX = Math.floor(Math.random() * window.innerWidth);
+        var posY = Math.floor(Math.random() * window.innerHeight);
+        coin.style.top = posY + "px";
+        coin.style.left = posX + "px";
+
+        setTimeout(function () {
+            coin.style.display = "none"; // Hide the coin after a delay
+        }, 2000); // Delay in milliseconds
+    }
+</script>
+
+<p title="Robux Generator"></p>
+<P id="DrückHinweis">
+    Drücke hier für deine kostenlosen coins</P>
+<button class="button" type="button">Spielo Coins Gratis</button>
+<div class="displayname">Erhalte auf unserer Seite kostenlose Coins für die Soielhalle um nie wieder dein gesmaten
+    Monatslohn auszugeben
+</div>
+
+</body>
+
+</html>

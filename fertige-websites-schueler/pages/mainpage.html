@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>Projektwoche</title>
+    <meta charset="utf-8">
+    <link href="/css/programmierprojekt/matthias.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div id="wrapper">
+    <div id="headline">All the Websites</div>
+    <div id="sub-headline">Die Website mit (fast) allen Websites</div>
+    <div id="website-wrapper">
+        {% for file, title in files_list %}
+            <a href="/websites/{{ file }}/" class="website-overview">
+                <img src="/images/programmierprojekt/screens/{{ file }}.png" class="website-image"/>
+                <div class="website-image-blend"></div>
+                <div class="website-textpanels">
+                    <div class="website-name">{{ title }}</div>
+                    <div class="website-description">Eine Website entstanden innerhalb der Projektwoche</div>
+                    <div class="website-author">Von {{ file|title }}</div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+    <div id="unheadline"></div>
+</div>
+</body>
+</html>

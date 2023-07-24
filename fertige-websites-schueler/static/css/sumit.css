@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root {
+    font-size: 2vw;
+    font-family: 'Bangers', sans-serif;
+}
+
+.Roblox-GENERATOR3000 {
+
+}
+
+#wrap-title {
+    display: flex;
+}
+
+#wrap-body {
+    display: flex;
+}
+
+body {
+    background-color: grey;
+}
+
+
+.Title {
+    color: red;
+    font-size: 80;
+    display: flex;
+    text-align: left;
+}
+
+.Cool {
+    margin-left: 18rem;
+    background: url("/images/programmierprojekt/goofy-cool.webp");
+    width: 7rem;
+    height: 7rem;
+    background-size: cover;
+
+}
+
+.Werbung {
+    margin-bottom: auto;
+    height: 20rem;
+    width: 10rem;
+    background: url("/images/programmierprojekt/dollar-g70809541f_1280.jpg")
+}
+
+.Scam-Text {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 20rem;
+    height: 10rem;
+}
+
+.Werbung2 {
+    margin-bottom: 1;
+    height: 20rem;
+    width: 13rem;
+    background: url("/images/programmierprojekt/emo.webp");
+    background-repeat: no-repeat;
+}
+
+.Bobux-Button {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.Tutorial-Button {
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.Scam-Text > a {
+    color: red;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.content > a:hover {
+    transform: scale(1.05);
+    display: inline-block;
+}

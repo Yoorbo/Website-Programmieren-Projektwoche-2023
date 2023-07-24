@@ -1,0 +1,111 @@
+:root {
+    font-size: 2vw;
+    --bck: #ffffff;
+    --txt: #333333;
+    --txt2: #333333;
+}
+
+body {
+    background: var(--bck);
+    color: var(--txt);
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    padding: 1rem;
+}
+
+#headline {
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: .5rem;
+    border-top: 0.1rem solid;
+}
+
+#sub-headline {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-bottom: .5rem;
+    border-bottom: 0.1rem solid;
+}
+
+#unheadline {
+    border-top: 0.1rem solid;
+    border-bottom: 0.1rem solid;
+    min-height: 6rem;
+}
+
+.website-overview {
+    height: 8rem;
+    margin: 1rem 0;
+    display: flex;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: var(--bck);
+    border: 0.1rem solid;
+    border-color: var(--txt2);
+}
+
+.website-overview:hover {
+    opacity: 90%;
+}
+
+.website-image {
+    border-radius: 1.9rem;
+    width: 25rem;
+    height: 8rem;
+    align-self: center;
+    object-fit: cover;
+}
+
+.website-image-blend {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 24rem;
+    height: 8rem;
+    position: absolute;
+    background-image: linear-gradient(to left, var(--bck) 6%, rgba(0, 0, 0, 0));
+}
+
+.test::after {
+    content: "";
+    border-radius: x x;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+
+}
+
+.website-textpanels {
+    width: 25rem;
+    /* background-color: rgb(241, 241, 241); */
+    color: var(--txt2);
+}
+
+.website-name {
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.website-description {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.website-author {
+    font-size: 0.8rem;
+    padding-top: 1rem;
+    text-align: center;
+}

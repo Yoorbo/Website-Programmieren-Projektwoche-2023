@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Roboto+Condensed:wght@300&display=swap');
+
+:root{
+  font-family: 'Nanum Gothic', sans-serif;
+--bg: #18202A;
+--txt:#fff;
+}
+body {
+  background: var(--bg);
+  color: var(--txt);
+
+
+}
+h1{
+  text-align: center;
+  font-size: 5rem;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Hugo {
+  background: url("/images/programmierprojekt/hugo2.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+
+.product {
+   min-width: fit-content;
+   max-width: 4rem;
+}
+
+.unge {
+  background: url("/images/programmierprojekt/unge.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  margin: auto;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Display as block element to occupy full width */
+  font-size: 16px;
+  margin-top: 10px; /* Add margin at the top for separation */
+}
+.Monte {
+  background: url("/images/programmierprojekt/monte.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+
+
+.Texte {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.5rem;
+margin:1rem;
+
+}
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  margin: auto;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block; /* Display as block element to occupy full width */
+  font-size: 16px;
+  margin-top: 10px; /* Add margin at the top for separation */
+}
+
+.Samo {
+  background: url("/images/programmierprojekt/Samo.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Rewi {
+  background: url("/images/programmierprojekt/rewi.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Reved  {
+  background: url("/images/programmierprojekt/REVED.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Pappaplatte {
+  background: url("/images/programmierprojekt/Pappaplatte.webp");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Fibi {
+  background: url("/images/programmierprojekt/fibi.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Bastighg {
+  background: url("/images/programmierprojekt/Bastighg.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}
+.Gnu {
+  background: url("/images/programmierprojekt/gnu.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 20rem;
+  margin: auto;
+  height: 20rem;
+}

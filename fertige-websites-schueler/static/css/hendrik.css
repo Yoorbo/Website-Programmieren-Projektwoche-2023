@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+:root {
+  font-size: 2vw;
+  font-family: 'Playfair Display', serif;
+  background-color: #A0ADAD;
+}
+.Überschrift {
+  font-size: 4rem;
+  text-align: center;
+  border-bottom: 0.2rem solid;
+  margin-bottom: 2rem;
+}
+span {
+    color: red;
+}
+.Hampter {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Hampend {
+  width: 6rem;
+  height: 6rem;
+  margin-left: 2rem;
+}
+.Kasen{
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Kaend {
+  width: 8rem;
+  height: 6rem;
+  marging-left: 2rem;
+}
+.Dögel {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Döend {
+  width: 8rem;
+  height: 6rem;
+  marging-left: 2rem;
+}
+.Filsche {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Fiend {
+  width: 7rem;
+  height: 6rem;
+  marging-left: 2rem;
+}
+.Milcha_MUh {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Miend {
+  width: 7rem;
+  height: 6rem;
+  marging-left: 2rem;
+}
+.Kanüdel {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.Kanend {
+  width: 8rem;
+  height: 6rem;
+  marging-left: 2rem;
+}
+.aaaaaaaaaaaaaaaaaal {
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid;
+  margin-bottom: 0.5rem;
+}
+.aend {
+  width: 7rem;
+  height: 10rem;
+  marging-left: 2rem;
+}
+.cockraaaawr {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.coend {
+  width: 8rem;
+  height: 6rem;
+  marging-left: 2rem;
+}

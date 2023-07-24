@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&display=swap');
+:root {
+  font-size: 2vw;
+  font-family:  'Cabin', sans-serif;
+}
+
+
+body {
+  background-color: skyblue;
+}
+
+
+.titel {
+  width: 45rem;
+  height: 10rem;
+  display: flex;
+}
+
+.Vbucks {
+  background: url("SRC/letter-gfb12c4fb7_1280.png");
+  background-size: cover;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  margin-top: 6.5rem;
+
+  }
+
+.Bucks  {
+  font-weight: 800;
+  margin-left: 1.5rem;
+  padding-top: 7.2rem;
+  font-size: 3.5rem;
+
+}
+
+.online {
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+  margin-left: 6.3rem;
+}
+
+.Real {
+font-weight: 1000;
+font-size: 4rem;
+margin-top: 4rem;
+margin-left: 12rem;
+margin-right: 13rem;
+background-image: linear-gradient(blue, red);
+color: yellow;
+ }
+ .generieren {
+ font-weight: 800;
+ font-size: 0.8rem;
+ margin-left: 21rem;
+ margin-top: 4rem;
+ color: red;
+ background-color: greenyellow;
+ width: 5rem;
+ height: 3rem;
+
+ }
+
+.Data {
+  font-weight: 800;
+  font-size: 0.8rem;
+  margin-left: 21rem;
+  margin-top: 4rem;
+  color: red;
+  background-color: greenyellow;
+  width: 9rem;
+  height: 4rem;
+}
+.VbucksE {
+  margin-left: 18rem;
+  margin-top: 6rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: cyan;
+  font-size: 2rem;
+
+}
+.buckie {
+  font-weight: 800;
+  margin-top: 0rem;
+  
+}
+.generierenknopf {
+font-weight: 800;
+  font-size: 0.8rem;
+  margin-left: 21rem;
+  margin-top: 4rem;
+  color: red;
+  background-color: blueviolet;
+  width: 9rem;
+  height: 4rem;
+}
+.shiton {
+  width: 13rem;
+  height: 13rem;
+}
+.shiton1 {
+  width: 12rem;
+  height: 11rem;
+}
+.shiton2 {
+  width: 15rem;
+  height: 12rem;
+}
+.shiton3 {
+  width: 17rem;
+  height: 13rem;
+}
+.shiton4 {
+  width: 16rem;
+  height: 12rem;
+}
+.vbucks_auf_ernst {
+  font-weight: 800;
+  font-size: 0.8rem;
+  width: 5rem;
+  height: 6rem;
+  color: red;
+  background-color: white;
+}
+

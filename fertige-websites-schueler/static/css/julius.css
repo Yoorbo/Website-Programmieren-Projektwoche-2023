@@ -1,0 +1,55 @@
+:root{
+  font-size: 2vw;
+  color: purple;
+  font-family: 'Comic Neue', cursive;
+font-family: 'Victor Mono', monospace;
+}
+
+h1{
+  font-size: 1rem;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+.text {
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.subheadline {
+  font-size: 1.2rem;
+  font-family: Comic Neue;
+}
+
+#Headline {
+  font-size: 2rem;
+  text-align: center;
+
+  font-weight: 300;
+  font-family: monospace;
+}
+
+#fucku {
+  font-family: serif;
+  font-size: 0.9rem;
+}
+
+#fucku2 {
+  font-family: Victor Mono;
+  font-size: 0.7rem;
+}
+
+body {
+  padding: 1rem;
+}
+
+
+
+body {background-color: pink;}
+
+.ABSTAND {
+  width: 1rem;
+  height: 2rem;
+}

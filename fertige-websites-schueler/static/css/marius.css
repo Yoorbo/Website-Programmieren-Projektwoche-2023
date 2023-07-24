@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+:root {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    font-size: 5px;
+}
+
+header {
+    background-color: #EC6226;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 1px;
+}
+
+main {
+    padding: 20px;
+}
+
+#school-info {
+    margin-bottom: 30px;
+}
+
+#gallery {
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img {
+
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.image-container img:hover {
+    transform: scale(1.1);
+    background-position: center;
+
+}
+
+.image-container img {
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: #EC6226;
+    color: #FFF;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    background: #f0f0f0;
+    color: #000000;
+}
+
+.untertitel {
+    font-size: 100px;
+}
